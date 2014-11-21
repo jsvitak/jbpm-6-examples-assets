@@ -5,7 +5,7 @@
   <groupId>org.jbpm.examples</groupId>
   <artifactId>rewards</artifactId>
   <version>1.0</version>
-  <packaging>kjar</packaging>
+  <packaging>jar</packaging>
   <name>rewards</name>
   <repositories>
     <repository>
@@ -14,14 +14,4 @@
       <url>http://localhost:8080/business-central/maven2/</url>
     </repository>
   </repositories>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.kie</groupId>
-        <artifactId>kie-maven-plugin</artifactId>
-        <version>6.0.3-redhat-4</version>
-        <extensions>true</extensions>
-      </plugin>
-    </plugins>
-  </build>
 </project>

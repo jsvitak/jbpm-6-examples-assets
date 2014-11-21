@@ -3,7 +3,7 @@ Asset repository for jbpm-6-examples
 
 To properly run all example applications from jbpm-6-examples repository, you have to install this repo into your maven artifact repository. You have two options how to do that:
 
-1. Add to your maven settings JBoss public repository and Red Hat product repository:
+1. Add to your maven settings JBoss public repository and Red Hat product repository (typically in ~/.m2/settings.xml):
 
      <repositories>
        <repository>

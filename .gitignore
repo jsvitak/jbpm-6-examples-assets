@@ -1,1 +1,4 @@
-/rewards/target
+/target
+**/.idea
+**/*.iml
+**/target/
